@@ -1,0 +1,83 @@
+.slider-from-top {
+animation: slider-from-top 1.2s;
+position: absolute;
+}
+
+
+@keyframes slider-from-top {
+0% {transform: translateY(-100%)}
+100% {transform: translateX(0%)}
+}
+
+#slider {
+margin: auto;
+text-align: center;
+overflow: hidden;
+z-index: 63;
+
+}
+
+#slider-area {
+margin: auto;
+overflow: hidden;
+}
+
+.slider-img {
+width: 100%;
+}
+
+
+@keyframes slider1 {
+0% {transform: translateX(0%)}
+20% {transform: translateX(0%)}
+25% {transform: translateX(-100%)}
+26% {transform: translateX(100%)}
+95% {transform: translateX(100%)}
+100% {transform: translateX(0%)}
+}
+
+.slider1 {
+animation: slider1 20s infinite;
+position: absolute;
+}
+
+@keyframes slider2 {
+0% {transform: translateX(100%)}
+20% {transform: translateX(100%)}
+25% {transform: translateX(0%)}
+45% {transform: translateX(0%)}
+50% {transform: translateX(-100%)}
+100% {transform: translateX(-100%)}
+}
+
+.slider2 {
+animation: slider2 20s infinite;
+position: absolute;
+}
+
+@keyframes slider3 {
+0% {transform: translateX(100%)}
+45% {transform: translateX(100%)}
+50% {transform: translateX(0%)}
+70% {transform: translateX(0%)}
+75% {transform: translateX(-100%)}
+100% {transform: translateX(-100%)}
+}
+
+.slider3 {
+animation: slider3 20s infinite;
+position: absolute;
+}
+
+@keyframes slider4 {
+0% {transform: translateX(100%)}
+70% {transform: translateX(100%)}
+75% {transform: translateX(0%)}
+95% {transform: translateX(0%)}
+100% {transform: translateX(-100%)}
+}
+
+.slider4 {
+animation: slider4 20s infinite;
+position: relative;
+}

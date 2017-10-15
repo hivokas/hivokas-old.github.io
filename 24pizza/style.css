@@ -1,0 +1,311 @@
+@import url("slider.css") screen;
+
+@font-face {
+font-family: BebasNeue;
+src: url(BebasNeueRegular.otf);
+}
+
+@font-face {
+font-family: Drina;
+src: url(Drina.otf);
+}
+
+
+
+body {
+padding: 0px;
+margin: auto;
+}
+
+header {
+margin: auto;
+height: 130px;
+background-color: #ffffff;
+}
+
+#logo {
+text-align: right;
+float: left;
+width: 185px;
+padding: 15px;
+position: absolute;
+z-index: 150;
+}
+
+#contacts {
+margin: auto;
+top: 4px;
+width: 100%;
+text-align: center;
+font-family: arial;
+font-size: 10px;
+position: relative;
+z-index: 61;
+}
+
+#nav {
+margin: auto;
+width: 573px;
+position: relative;
+z-index: 61;
+text-align: center;
+overflow: hidden;
+}
+
+#white-space {
+height: 34px;
+}
+
+#nav-anim {
+animation: nav-anim 1.3s;
+}
+
+@keyframes nav-anim {
+0% {
+transform: translateY(-100%);
+}
+100% {
+transform: translateX(0%);
+}
+}
+
+hr {
+border: none;
+background-color: #c92935;
+height: 2px; 
+}
+
+
+
+
+h1 {
+font-family: BebasNeue, Impact, Arial;
+color: #c92935;
+text-align: center;
+font-size: 50px;
+}
+
+
+h3 {
+font-family: BebasNeue, Impact, Arial;
+color: #c92935;
+text-align: center;
+font-size: 20px;
+}
+
+li.menu {
+display: inline;
+}
+
+
+
+#popular3 {
+width: 900px;
+margin: auto;
+height: 350px;
+position: relative;
+z-index: 62;
+}
+
+#popular {
+width: 300px;
+float: left;
+text-align: center;
+position: relative;
+}
+
+
+#four_items {
+width: 1200px;
+margin: auto;
+height: 350px;
+position: relative;
+z-index: 62;
+}
+
+#one_item {
+width: 300px;
+float: left;
+text-align: center;
+position: relative;
+}
+
+@keyframes item1 {
+0% {
+transform: translateX(-600%);
+}
+100% {
+transform: translateX(0%);
+}
+}
+
+.item1 {
+animation: item1 1.3s;
+z-index: 1000;
+}
+
+@keyframes item2 {
+0% {
+transform: translateX(-600%);
+}
+90% {
+transform: translateX(0%);
+}
+}
+
+.item2 {
+animation: item2 1.3s;
+}
+
+@keyframes item3 {
+0% {
+transform: translateX(-600%);
+}
+80% {
+transform: translateX(0%);
+}
+}
+
+.item3 {
+animation: item3 1.3s;
+}
+
+@keyframes item4 {
+0% {
+transform: translateX(-600%);
+}
+70% {
+transform: translateX(0%);
+}
+}
+
+.item4 {
+animation: item4 1.3s;
+}
+
+.akcia_from_left {
+animation: akcia_from_left 1.3s;
+}
+
+@keyframes akcia_from_left {
+0% {
+transform: translateX(-100%);
+}
+100% {
+transform: translateX(0%);
+}
+}
+
+
+.akcia_from_right {
+animation: akcia_from_right 1.3s;
+}
+
+@keyframes akcia_from_right {
+0% {
+transform: translateX(100%);
+}
+100% {
+transform: translateX(0%);
+}
+}
+
+
+#akcia_pic {
+text-align: center;
+width: 100%;
+}
+
+#akcia_block {
+overflow: hidden;
+z-index: 64;
+width: 75%;
+margin: auto;
+}
+
+a.nav-top {
+display: inline-table;
+background-repeat: no-repeat;
+background-position: top center;
+text-decoration: none;
+font-family: BebasNeue;
+font-size: 20px;
+color: #c92935;
+line-height: 140px;
+width: 120px;
+text-align: center;
+}
+
+a.nav-top:hover {
+font-size: 21px;
+transition: 0.2s;
+}
+
+#slider {
+height: 405px;
+background-repeat: no-repeat;
+background-position: top center;
+position: relative;
+z-index: 63;
+}
+
+#red-area {
+padding: 10px;
+background-color: #c92935;
+}
+
+
+
+#why_us {
+padding: 10px;
+margin: auto;
+width: 640px;
+font-family: BebasNeue, Impact, Arial;
+color: #c92935;
+text-align: center;
+font-size: 25px;
+list-style-type: none;
+}
+
+@keyframes logo-animate {
+0% {
+transform: translateX(-120%);
+}
+100% {
+transform: translateX(0%);
+}
+}
+
+.logo-animate {
+animation: logo-animate 1.3s;
+}
+
+footer {
+padding: 10px;
+height: 80px;
+background-color: #c92935;
+text-align: center;
+}
+
+
+a.nav-bottom {
+display: inline-table;
+text-decoration: none;
+font-family: BebasNeue;
+font-size: 20px;
+color: #ffffff;
+width: 130px;
+text-align: center;
+}
+
+a.page-link {
+display: inline;
+text-decoration: none;
+font-family: BebasNeue;
+font-size: 15px;
+color: #ffffff;
+width: 200px;
+text-align: center;
+}
+
+
